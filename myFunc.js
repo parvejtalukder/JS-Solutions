@@ -20,7 +20,6 @@ let MyDB = {
         }
     ]
 };
-
 const inp = prompt("Enter Roll: ");
 for (const student of MyDB.students) {
     if (student.id == inp) {
